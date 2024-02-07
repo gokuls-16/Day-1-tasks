@@ -1,0 +1,55 @@
+Objects and its internal representation in Java Script
+ 
+  * Objects in java script its most important data-type and forms the building blocks for modern js.these Objects are quite different from java script data types (Number,string,boolean,null,undefined and symbol)in these sense that while these primitive data types all store a single value each depending on their types.
+  * Objects are more complex and each object may contain any combination of these primitive data types as well as reference data types.
+  * Objects  in java script may be defined as an unordered collection of related data in the form of "key value pairs ".
+           
+                Array - "Index value pair "
+
+                object- "key value pair"
+
+
+ * primitive data types contain one value but object can hold in form of key.
+ 
+ * Example;
+
+ //Object
+let name="gokul";
+let age=25;
+let course="guvi-fsd";
+let gender="male";
+let address="chennai";
+
+let person={
+    name:"gokul",
+     age:25,
+     course:"guvi-fsd",
+     gender:"male",
+     address:"chennai",
+}
+
+console.log(person);
+
+//After creating my person object ,the value inside the can be accessed using keys values
+
+ objectName.property
+       or 
+objectName["property]
+
+Examples 
+
+person.name
+output:"gokul"
+
+person.course
+output:"guvi-fsd"
+
+person.gender
+output:"male"
+
+// the syntax for adding a property to an object is
+
+ObjectName.ObjectProperty=propertyvalue
+
+
+

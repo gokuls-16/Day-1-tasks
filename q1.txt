@@ -1,0 +1,17 @@
+ Basics of HTTP
+
+  HTTP stands for Hyper Text Transfer Protocol.Its the foundation of data communication for World Wide Web.http used to load web pages using hypertext links.Its Transfer information between networked devices and run top of the other layers of the network protocol.Devlopment of HTTP was initiated by Tim Berners-LEE at CERN in 1989.A typical flow over HTTP involves a client machine making  a request to a server,which then sends a response message.
+
+ HTTP 1.1
+
+ * The first usable version of HTTP was created in 1997.Because it went through several stages of Devlopment,this first version of HTTP was called HTTP/1.1.this version still use on the weeb browser.
+ * HTPP/1.1 load resources one after one, so if one resource cannot be loaded it block all other resources behind it.
+ * Its work on the textual format and compresses data by itself
+ * There is head  of line blocking that blocks all the requests behind it untill it doesn't get its all resources.
+
+ HTTP 2
+
+ *It was released at google as the significant improvement of its  predecessor in 2005.
+ *it was initialy modeled after the SPDY protocol.
+ * It works on binary protocol and its uses HPACK for data compression.
+ * HTTP/2.2 allow multiplexing so one TCP ( Transmission Control Protocol)connection is required for multiple requests.
